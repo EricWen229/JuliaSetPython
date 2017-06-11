@@ -3,6 +3,11 @@ import math
 
 import PIL.ImageColor
 
+class Complex:
+    def __init__(self, x=0.0, y=0.0):
+        self.x = float(x)
+        self.y = float(y)
+
 class RGBRange:
     colorIn = (0.0, 0.0, 0.0)
     colorOut = (0.0, 0.0, 0,0)

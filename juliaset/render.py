@@ -2,12 +2,7 @@ import numpy as np
 import threading
 import time
 import PIL.Image
-from .utility import JuliaSetColor
-
-class Complex:
-    def __init__(self, x=0.0, y=0.0):
-        self.x = float(x)
-        self.y = float(y)
+from .utility import JuliaSetColor, Complex
 
 class JuliaSet:
     def __init__(self):
